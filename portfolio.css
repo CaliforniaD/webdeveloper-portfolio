@@ -1,7 +1,8 @@
 nav {
     display: flex;
-    justify-content: space-between:;
+    justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 nav > ul{
     display : flex;
@@ -38,4 +39,54 @@ body{
 }
 .primary_text{
     color: #FD6E0A;
+}
+/*header related styles*/
+header{
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 750px 450px;
+}
+.banner{
+    padding: 30px 30px 50px 225x;
+    display: flex;
+    align-items: center;
+}
+.banner .prof-pic{
+    width: 450px;
+    height: 500px;  
+    flex-shrink: 0;    
+    margin-left : 330px;
+}
+.banner-greeting {
+    font-weight: 600;
+    color: #474747;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.banner-main{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.gt{
+    margin-top: 0px;
+    color: #757575;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+#one{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+#two{
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
 }
