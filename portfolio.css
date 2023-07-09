@@ -191,23 +191,22 @@ main section {
 .skills-container {
     display: flex;
     margin-top: 50px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 
 }
 
 .skill {
+    margin: 15px;
     padding: 30px;
     gap: 24px;
-    border-radius: 5px;
-    background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
 }
 
 .skill-description {
-
     color: #757575;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
+    border-radius: 5px;
 }
 
 /* starting resume*/
