@@ -4,19 +4,23 @@ nav {
     align-items: center;
     margin: 0px 200px;
 }
-nav > ul{
-    display : flex;
+
+nav>ul {
+    display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 51px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     color: #fff;
@@ -27,52 +31,61 @@ nav a{
     padding: 15px 35px;
     border: 0;
 }
-.h3{
+
+.h3 {
     font-size: 45px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     color: #181818;
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.primary_text{
+
+.primary_text {
     color: #FD6E0A;
 }
+
 /*header related styles*/
-header{
+header {
     background-color: #FFF8F3;
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 750px 450px;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 50px 225x;
     display: flex;
     align-items: center;
 }
-.banner .prof-pic{
+
+.banner .prof-pic {
     width: 450px;
-    height: 500px;  
-    flex-shrink: 0;    
-    margin-left : 330px;
+    height: 500px;
+    flex-shrink: 0;
+    margin-left: 330px;
 }
+
 .banner-greeting {
     font-weight: 600;
     color: #474747;
     font-size: 45px;
     margin-bottom: 0px;
 }
-.banner-main{
+
+.banner-main {
     font-size: 85px;
     font-weight: 700;
     color: #181818;
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.gt{
+
+.gt {
     margin-top: 0px;
     color: #757575;
     font-size: 17px;
@@ -80,13 +93,72 @@ header{
     line-height: 30px;
     margin-bottom: 0px;
 }
-#one{
+
+#one {
     margin-top: 30px;
     margin-right: 30px;
 }
-#two{
+
+#two {
     background-color: #FFF8F3;
     color: #FD6E0A;
     border-radius: 5px;
     border: 1px solid #FD6E0A;
+}
+
+/*main section*/
+.main {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/*About section*/
+.about {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #FFF8F3;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.about-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.about-description{
+    margin-top: -20px;
+    color: #474747;
+    font-size:larger;
+    
+}
+    
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.paragraph {
+    margin-top: 30px;
+    margin-left: -45px;
+    width: 827px;
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
